@@ -1,0 +1,17 @@
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+body
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 18pt;
+    background-color: #FAFAFA;
+}
+
+h1 {
+    text-align: center;
+    color: #0000ff;
+}

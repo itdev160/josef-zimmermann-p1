@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google Map</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" text="text/css" href="https://fonts.googleapis.com/css?family=Helvetica">
+</head>
+
+<body>
+<header>
+    <h1>Milwaukee County Beaches</h1>
+</header>
+
+<main>
+    <div id="map"></div>
+    
+    <script 
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpyIZ5EwtM0u0r0zKQ7CP18pOulzBpLKk&callback=initMap&libraries=&v=weekly"
+      defer>
+    </script>
+    
+    <h2>Beaches:</h2>
+    <div>
+        <ul>
+            <li>Atwater</li>
+            <li>Bradford</li>
+            <li>South Shore Park</li>
+            <li>Grant Park</li>
+        </ul>
+    </div>
+    <br>
+    
+    <h3>Atwater Beach</h3>
+    <p>
+        This 5-acre open space features a sandy beach, public art, a playground & scenic lake views.
+        <br>
+        <br>
+        <strong>Address: </strong>4000 N Lake Dr, Shorewood, WI 53211
+    </p>
+    <br>
+    
+    <h3>Bradford Beach</h3>
+    <p>
+        Large public beach featuring yoga & crossfit classes, cabana rentals & beach volleyball courts.
+        <br>
+        <br>
+        <strong>Address: </strong>2400 N Lincoln Memorial Dr, Milwaukee, WI 53202
+    </p>
+    <br>
+
+    <h3>South Shore Beach</h3>
+    <p>
+        Park on Lake Michigan with a beach, a beer garden, a playground & views of downtown.
+        <br>
+        <br>
+        <strong>Address: </strong>2900 S Shore Dr, Milwaukee, WI 53207
+    </p>
+    <br>
+
+    <h3>Grant Park Beach</h3>
+    <p>
+        Pristine sandy lakeside beach with a snack bar, playground, volleyball court & kayak rental.
+        <br>
+        <br>
+        <strong>Address: </strong>Grant Park Beach, Wisconsin 53172
+    </p>
+    <br>
+
+    <table id="table" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Beach</th>
+                <th scope="column">Lifeguard on Duty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Atwater</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td scope="row">Bradford</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td scope="row">South Shore</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td scope="row">Grant</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
